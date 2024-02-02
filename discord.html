@@ -2,19 +2,28 @@
 
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Table Sortable</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./jquery.min.js"></script>
+
 <style>
 body {
         background-color: #212f3d;
         color: #eaecee;
+		
 }
 
 button {
         width: 100%;
         height: 80px;
         background-color: transparent;
+		border: none;
         color: #eaecee;
         border-radius: 24px;
-		font-size: 26px
 		padding: 0;
 		font-family: "Trebuchet MS", Helvetica, sans-serif;
 		font-size: 26px;
@@ -34,68 +43,97 @@ table {
        border: 3px solid  #2c3e50 ;
        padding: 10px;
        th {font-size: 35px;border-radius:34px;}
+	   
+	   
        tr {font-size: 26px;}
        th, td { 
        border: 4px solid  #1c2833 ;
        padding: 5px;
        border-radius:24px;
 	   background-color:  #566573 ;}
+	   
+	   tr td:first-child {
+       width: 8%;
+}
+       tr td:nth-child(2) {
+       width: 17%;
+}
+       tr td:last-child(3) {
+       width: 45%;
+}
+       tr td:last-child(4) {
+       width: 30%;
+}
        
-  }
+	   
+       }
   
 div {
      text-align: center;
 	 padding: 34px;
     }
   a {margin:60px; }
-  
+
+#copyConfirm{
+  position:absolute ;
+  visibility:hidden;
+  z-index:9999;
+  border: 4px solid  #1c2833 ;
+  padding: 15px;
+  border-radius:24px;
+  background-color:  #566573;
+  font-size: 20px;
+}
+.fade-hidden
+{
+  opacity: 0%;
+} 
+.fade-in {
+  opacity: 100%;
+  transition: opacity 0.4s;
+} 
+.fade-out {
+  opacity: 0%;
+  transition: opacity 1s;
+}
  
     
   
 </style>
 </head>
 <body>
- <div> <a href= "index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="130" height="140"></a>
-<a href= "discord.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="140" height="140"></a> </div> 
-<table>
-  <colgroup>
-    <col span="3" >
-  </colgroup>
-  <tr> 
-	<th style="width:8%";>Platform</th>
-	<th style="width:15%";>Category</th>
-    <th style="width:27%";>Command</th>
-    <th style="width:50%";>Description</th>
-	 </tr>
-
-<tr>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70"></td>
-  <td> community  </td>
-  <td><button onclick="copyText(this)" title="Click to copy">!cutopolko</button></td>
-  <td>Lies and slander ! </td>
-</tr>
-
-<tr>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70"></td>
-  <td> community  </td>
-  <td><button onclick="copyText(this)" title="Click to copy">!cutopolko</button></td>
-  <td>Lies and slander ! </td>
-</tr>
-
-<tr>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70"></td>
-  <td> community  </td>
-  <td><button onclick="copyText(this)" title="Click to copy">!cutopolko</button></td>
-  <td>Lies and slander ! </td>
-</tr>
-
-<tr>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70"></td>
-  <td> community  </td>
-  <td><button onclick="copyText(this)" title="Click to copy">!cutopolko</button></td>
-  <td>Lies and slander ! </td>
-</tr>
-
+<div class="page-container">
+        <div class="container">
+            <div class="row mt-5 mb-3 align-items-center">
+                <div class="col-md-5">
+                    <button class="btn btn-primary btn-sm" id="rerender">refresh</button>
+                </div>
+                <div class="col-md-3">
+                  <input type="text" class="form-control" placeholder="Search in table..." id="searchField">
+                </div>
+                <div class="col-md-2 text-right">
+                  <span class="pr-3">Rows Per Page:</span>
+                </div>
+                <div class="col-md-2">
+                    <div class="d-flex justify-content-end">
+                        <select class="custom-select" name="rowsPerPage" id="changeRows">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+							<option value="50">50</option>
+							<option value="69">69</option>
+                            <option value="100">100</option>
+							<option value="621">621</option>
+                            <option value="1000">1000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="root"></div>
+            <div class="mt-4">
+            </div>
+        </div>
+	</div>	
+<div id="copyConfirm" class="fade-hidden">Copied!</div>
 
 
 
@@ -104,12 +142,127 @@ div {
   function copyText(button) {
     var buttonText = button.textContent || button.innerText;
     navigator.clipboard.writeText(buttonText);
+
+    copyTextFeedback(button);
   }
+
+  //Provide feedback that something happened..
+  var copyTextFeedbackHideTimeout;
+  var copyTextFeedbackFadeTimeout;
+  function copyTextFeedback(obj)
+  {
+    if(obj != null)
+    {
+      var confirmation = document.getElementById("copyConfirm");
+      
+      if(confirmation != null)
+      {
+        //Set position
+        let objBounding = obj.getBoundingClientRect();
+        let selfBounding = confirmation.getBoundingClientRect();
+
+        confirmation.style.top = objBounding.top + window.scrollY + (objBounding.height/2) - selfBounding.height/2 + "px";
+        confirmation.style.left = objBounding.left + window.scrollX + (objBounding.width/1.25) - selfBounding.width/2 + "px";
+
+        //Set visibility fx
+        confirmation.style.visibility = "visible";
+        confirmation.classList.remove("fade-out");
+        confirmation.classList.add("fade-in");
+        
+        if(copyTextFeedbackHideTimeout)
+          clearTimeout(copyTextFeedbackHideTimeout);
+        if(copyTextFeedbackFadeTimeout)
+          clearTimeout(copyTextFeedbackFadeTimeout);
+        copyTextFeedbackFadeTimeout = setTimeout(copyTextFeedbackFade, 1000);
+      }
+    }
+  }
+
+  //Fade us out
+  function copyTextFeedbackFade()
+  {
+    var confirmation = document.getElementById("copyConfirm");
+    
+    if(confirmation != null)
+    {
+      if(confirmation.classList.contains("fade-in"))
+      {
+        confirmation.classList.remove("fade-in");
+        confirmation.classList.add("fade-out");
+      }
+      if(copyTextFeedbackHideTimeout)
+        clearTimeout(copyTextFeedbackHideTimeout);
+      if(copyTextFeedbackFadeTimeout)
+        clearTimeout(copyTextFeedbackFadeTimeout);
+      copyTextFeedbackHideTimeout = setTimeout(copyTextFeedbackHide, 1000);
+    }
+  }
+
+  //Fadeout done, hide us
+  function copyTextFeedbackHide() 
+  {
+    var confirmation = document.getElementById("copyConfirm");
+    
+    if(confirmation != null)
+    {
+      confirmation.classList.remove("fade-in");
+      confirmation.classList.remove("fade-out");
+      confirmation.style.visibility = "hidden";
+    }
+  }
+
 </script>
 
+    <script src="./data.js"></script>
+    <script src="./table-sortable.js"></script>
+    <script>
+        var table = $('#root').tableSortable({
+            data: data,
+            columns: columns,
+            searchField: '#searchField',
+            responsive: {
+                1100: {
+                    columns: {
+                        formCode: 'Form Code',
+                        formName: 'Form Name',
+                    },
+                },
+            },
+            rowsPerPage: 5,
+            pagination: true,
+            tableWillMount: function() {
+                console.log('table will mount')
+            },
+            tableDidMount: function() {
+                console.log('table did mount')
+            },
+            tableWillUpdate: function() {console.log('table will update')},
+            tableDidUpdate: function() {console.log('table did update')},
+            tableWillUnmount: function() {console.log('table will unmount')},
+            tableDidUnmount: function() {console.log('table did unmount')},
+            onPaginationChange: function(nextPage, setPage) {
+                setPage(nextPage);
+            }
+        });
 
-  
-</table>
+        $('#changeRows').on('change', function() {
+            table.updateRowsPerPage(parseInt($(this).val(), 10));
+        })
+
+        $('#rerender').click(function() {
+            table.refresh(true);
+        })
+
+        $('#distory').click(function() {
+            table.distroy();
+        })
+
+        $('#refresh').click(function() {
+            table.refresh();
+        })
+
+    </script>
+
 
 </body>
 </html>
