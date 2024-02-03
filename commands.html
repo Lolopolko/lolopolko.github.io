@@ -72,6 +72,7 @@ table {
 div {
      text-align: absolute;
 	 padding: 2px;
+
     }
   a {margin:60px; }
 
@@ -97,7 +98,22 @@ div {
   opacity: 0%;
   transition: opacity 1s;
 }
+
+option {  font-size: 28px;
+          color:  #1c2833  ;
+        background-color: #aeb6bf;
+		
+}
+
+.row {
+padding-right: 50px ;
+}
+
+
+
+
  
+
     
   
 </style>
@@ -107,24 +123,25 @@ div {
         <div class="container">
             <div class="row mt-5 mb-3 align-items-center">
                 <div class="col-md-5">
-                    <button class="btn btn-primary btn-sm" id="rerender">refresh</button>
+                   
                 </div>
                 <div class="col-md-3">
-                  <input type="text" class="form-control" placeholder="Search in table... " id="searchField">
+                  <input type="text" class="form-control" placeholder="Search in table... " id="searchField" style="background-color: #aeb6bf;  ">
                 </div>
                 <div class="col-md-2 text-right">
                   <span class="pr-3">Rows Per Page:</span>
                 </div>
-                <div class="col-md-2">
-                    <div class="d-flex justify-content-end">
-                        <select class="custom-select" name="rowsPerPage" id="changeRows">
-                            <option value="10">10</option>
-                            <option value="20">20</option>
+                <div  class="col-md-2">
+                    <div  class="d-flex justify-content-end">
+                        <select style="background-color: #aeb6bf;" class="custom-select" name="rowsPerPage" id="changeRows">
+                            <option value="5">5</option>
+							<option value="10">10</option>
+                            <option value="20"selected>20</option>
 							<option value="50">50</option>
-							<option value="69">69</option>
                             <option value="100">100</option>
 							<option value="621">621</option>
-                            <option value="1000">1000</option>
+							<option value="1000">1000</option>
+                            <option value="9999">Infinit</option>
                         </select>
                     </div>
                 </div>
@@ -222,7 +239,7 @@ div {
             columns: columns,
             searchField: '#searchField',
            
-            rowsPerPage: 5,
+            rowsPerPage: 20,
             pagination: true,
             tableWillMount: function() {
                 console.log('table will mount')
