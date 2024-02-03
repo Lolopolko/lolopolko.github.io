@@ -143,10 +143,10 @@ var data = [
 ]
 
 var columns = {
-    Platform: 'Platform',
-    Category: 'Category',
-    Command: 'Command',
-    Description: 'Description',
+    Platform: '↑↓Platform',
+    Category: '↑↓Category',
+    Command: '↑↓Command',
+    Description: '↑↓Description',
  
  
 }
