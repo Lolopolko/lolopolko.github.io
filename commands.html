@@ -144,9 +144,9 @@ padding: 0px;
                         <select style="background-color: #aeb6bf;" class="custom-select" name="rowsPerPage" id="changeRows">
                             <option value="5">5</option>
 							<option value="10">10</option>
-                            <option value="20"selected>20</option>
+                            <option value="20">20</option>
 							<option value="50">50</option>
-                            <option value="100">100</option>
+                            <option value="100"selected>100</option>
 							<option value="621">621</option>
 							<option value="1000">1000</option>
                             <option value="9999">Infinit</option>
@@ -247,7 +247,7 @@ padding: 0px;
             columns: columns,
             searchField: '#searchField',
            
-            rowsPerPage: 20,
+            rowsPerPage: 100,
             pagination: true,
             tableWillMount: function() {
                 console.log('table will mount')
