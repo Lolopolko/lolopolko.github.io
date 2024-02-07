@@ -131,15 +131,7 @@ var data = [
         
 		
     },
-	
-	{
-        Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70">',
-        Category: 'Community Interactions',
-        Command: '<button onclick="copyText(this)" title="Click to copy"></button>',
-        Description: '(type name after @)',
-        
 		
-    },	
 	
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70">',
