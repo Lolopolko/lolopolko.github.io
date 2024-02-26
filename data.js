@@ -746,15 +746,7 @@ var data = [
         
 		
     },		
-		
-	{
-        Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!wuskmusk</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },		
+			
 		
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70">',
@@ -763,11 +755,38 @@ var data = [
         Description: 'custom commands for super cute beans',
         
 		
+    },	
+	{
+        Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutegusty</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
     },		
 	
 	{
+        Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutesimon</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },		
+	
+	{
+        Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutezyron</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },		
+		
+	
+	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!jumicutie</button>',
         Description: 'custom commands for super cute beans',
         
@@ -776,7 +795,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutedara</button>',
         Description: 'custom commands for super cute beans',
         
@@ -785,7 +804,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!foundsoul</button>',
         Description: 'custom commands for super cute beans',
         
@@ -794,7 +813,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cuterox</button>',
         Description: 'custom commands for super cute beans',
         
@@ -803,7 +822,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!smajcutie</button>',
         Description: 'custom commands for super cute beans',
         
@@ -812,7 +831,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutedark</button>',
         Description: 'custom commands for super cute beans',
         
@@ -821,7 +840,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutezandik</button>',
         Description: 'custom commands for super cute beans',
         
@@ -830,7 +849,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!eurocutie</button>',
         Description: 'custom commands for super cute beans',
         
@@ -839,7 +858,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutejames</button>',
         Description: 'custom commands for super cute beans',
         
@@ -848,7 +867,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!sammycutie</button>',
         Description: 'custom commands for super cute beans',
         
@@ -857,7 +876,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutehoru</button>',
         Description: 'custom commands for super cute beans',
         
@@ -866,7 +885,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cuterani</button>',
         Description: 'custom commands for super cute beans',
         
@@ -875,7 +894,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutemanga</button>',
         Description: 'custom commands for super cute beans',
         
@@ -884,7 +903,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutemela</button>',
         Description: 'custom commands for super cute beans',
         
@@ -893,7 +912,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/103px-Twitch_Glitch_Logo_Purple.svg.png?20200520095038" width="65" height="70"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutetako</button>',
         Description: 'custom commands for super cute beans',
         
@@ -902,7 +921,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutegene</button>',
         Description: 'custom commands for super cute beans',
         
@@ -911,7 +930,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutesnow</button>',
         Description: 'custom commands for super cute beans',
         
@@ -920,7 +939,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cuteseah</button>',
         Description: 'custom commands for super cute beans',
         
@@ -929,7 +948,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cuteshin</button>',
         Description: 'custom commands for super cute beans',
         
@@ -938,7 +957,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutesagi</button>',
         Description: 'custom commands for super cute beans',
         
@@ -947,7 +966,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutonell</button>',
         Description: 'custom commands for super cute beans',
         
@@ -956,7 +975,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutemarcel</button>',
         Description: 'custom commands for super cute beans',
         
@@ -965,7 +984,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!hornyttarius</button>',
         Description: 'custom commands for super cute beans',
         
@@ -974,7 +993,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!gaywusk</button>',
         Description: 'custom commands for super cute beans',
         
@@ -983,7 +1002,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!nutpolko</button>',
         Description: 'custom commands for super cute beans',
         
@@ -992,7 +1011,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!nutmando</button>',
         Description: 'custom commands for super cute beans',
         
@@ -1001,7 +1020,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!nutdara</button>',
         Description: 'custom commands for super cute beans',
         
@@ -1010,7 +1029,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!nutrox</button>',
         Description: 'custom commands for super cute beans',
         
@@ -1019,7 +1038,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!nuttysammy</button>',
         Description: 'custom commands for super cute beans',
         
@@ -1028,7 +1047,7 @@ var data = [
 			
 	{
         Platform: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Discord_logo_round.svg/120px-Discord_logo_round.svg.png?20240107134118" width="70" height="70">',
-        Category: 'Images',
+        Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!lostnut</button>',
         Description: 'custom commands for super cute beans',
         
