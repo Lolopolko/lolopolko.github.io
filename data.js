@@ -1514,6 +1514,15 @@ var data = [
 		
     },	
 	
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Images',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!fennec</button>',
+        Description: 'Show picture of cutefennec fox. Happy Lostsoul ??? :3 ',
+        
+		
+    },	
+	
 			{
         Platform: '<img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Images',
