@@ -1514,6 +1514,16 @@ var data = [
 		
     },	
 	
+			{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Images',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!dragon</button>',
+        Description: 'Show picture of named dwagon',
+        
+		
+    },	
+	
+	
 		{
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
         Category: 'Images',
