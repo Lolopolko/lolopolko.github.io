@@ -1,0 +1,85 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+	<link rel="icon" type="image/x-icon" href="./images/bea2.ico"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css"/><!-- mess but works :3 -->
+
+	
+</head>
+
+<body>
+
+
+
+
+
+<!-- This is the navigation bar on top  -->
+
+<div class="topnav">
+
+<a href="./index.html">Home</a>
+<a href="./Commands.html">Commands</a> 
+<a class="active" href="./Content.html">Youtube</a>
+<a href="./DownloadMedia.html">Art</a>
+<a href="./Familytree.html">Family tree</a>
+<a href="./Contact.html">Contact</a>
+  
+</div>	
+
+
+</head>
+<body>
+
+ <div style="text-align: center; padding:0px;"> <a href="https://www.youtube.com/@lolopolkoOwO" style="margin:0px;"><img id="optionalstuff" src="./images/youtube.png" alt="" position="center" width="30%" height="auto"></a>
+ 
+ <div class="playlist-container">
+        <div class="playlist-item">
+            <h1>Shorts Playlist</h1>
+            <iframe src="https://www.youtube.com/embed/video series?si=W8KSu0ViCXm-tGia&amp;list=PLX40FhocoyRdBE-XjqEQomlOF_glCKd7B" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen></iframe>
+        </div>
+        <div class="playlist-item">
+            <h1>Memes Playlist</h1>
+            <iframe src="https://www.youtube.com/embed/videoseries?si=VCw_k0QxetWsxwYw&amp;list=PLX40FhocoyReSF46yv7NKcI-ZLdjnjTw8" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+  
+   
+   <h1>Latest Video from My YouTube Channel</h1>
+    <div id="video-container" class="video-container"></div>
+	
+
+    <script>
+        const apiKey = 'AIzaSyAukzv9yT1egAWcrb5EXn2FQSTe8oHKFhI';  
+        const channelId = 'UCcPTJ_mZwxgrRMAtcIa_ozg';  
+
+        async function getLatestVideo() {
+            const response = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&order=date&part=snippet&type=video&maxResults=1`);
+            const data = await response.json();
+            const latestVideo = data.items[0];
+
+            if (latestVideo) {
+                const videoId = latestVideo.id.videoId;
+                const videoUrl = `https://www.youtube.com/embed/${videoId}`;
+                const videoContainer = document.getElementById('video-container');
+                videoContainer.innerHTML = `<iframe src="${videoUrl}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            } else {
+                document.getElementById('video-container').innerText = 'No videos found.';
+            }
+        }
+
+        getLatestVideo();
+    </script>
+
+
+</body>
+</html>

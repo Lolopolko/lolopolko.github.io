@@ -1,3 +1,121 @@
-<meta http-equiv="refresh" content="0; url=https://lolopolko.github.io/commands.html" />
+<html>
 
-<p><a href="https://lolopolko.github.io/commands.html">commands</a></p>
+<head>
+
+    <meta charset="utf-8" />
+	<link rel="icon" type="image/x-icon" href="./images/bea2.ico"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css"/><!-- mess but works :3 -->
+
+	
+<head>
+<style>
+a {
+    margin: 15px;
+    font-size: 28px;
+	color: #a9cce3 !important;
+}
+
+.topnav a{
+
+	color: #fff !important;
+
+}
+
+
+.description {
+    font-size: 16px;
+    color: #dcdcdc; /* Gray color for the description */
+    margin-bottom: 20px; /* Space below the description */
+    width: 100%; /* Full width of its container */
+    max-width: 350px; /* Maximum width to control line length */
+    line-height: 1.5; /* Adjust line height for readability */
+    word-wrap: break-word; /* Ensure long words break onto the next line if needed */
+}
+	
+}
+</style>
+</head>
+
+<body>
+
+<!-- This is the navigation bar on top  -->
+
+<div class="topnav">
+  <a class="active" href="./index.html">Home</a>
+  <a href="./Commands.html">Commands</a> 
+  <a href="./Content.html">Youtube</a>
+  <a href="./DownloadMedia.html">Art</a>
+  <a href="./Familytree.html">Family tree</a>
+  <a href="./Contact.html">Contact</a>
+</div>	
+
+<div class="centered-content">
+  <h1>Welcome</h1>
+  <p>Hey there! I'm Lolopolko, a passionate gamer, streamer, and YouTuber.</p>
+  <p class="extra-space">On this webpage you can find all about me, all necessary links, stream/discord commands, my contact information, and my content.</p>
+</div>
+
+<div class="linktree">
+  <div class="link-item">
+    <h2><a href="https://www.twitch.tv/lolopolko/">Twitch</a><p class="description">Watch me live on Twitch. I stream regularly on Fridays and Sunday</p></h2>
+   <a href="https://www.twitch.tv/lolopolko/"> <img src="./images/Twitchindex.png" alt="Twitch"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://www.youtube.com/@lolopolkoOwO">YouTube</a><p class="description">Check out my videos on YouTube.</p> </h2>
+   <a href="https://www.youtube.com/@lolopolkoOwO"> <img src="./images/Youtubetindex.png" alt="YouTube"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://www.tiktok.com/@lolopolkoowo">TikTok</a><p class="description">Follow me on TikTok for short clips and fun content.</p></h2>
+  <a href="https://www.tiktok.com/@lolopolkoowo">  <img src="./images/Tiktoktindex.png" alt="TikTok"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://discord.gg/uT95T6xVmN">Discord Server</a><p class="description">Join my Discord community. This is the best way to stay in touch with community while streams are offline</p></h2>  
+   <a href="https://discord.gg/uT95T6xVmN"> <img src="./images/Discordindex.png" alt="Discord Server"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://twitter.com/Lolopolkowo">Twitter</a><p class="description"> Stay updated with my latest tweets but be aware that this is often 18+ content ! </p></h2>
+  <a href="https://twitter.com/Lolopolkowo">  <img src="./images/Twitterindex.png" alt="Twitter"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://e621.net/posts?tags=lolopolko+">E621</a><p class="description"> Check out my animation/other content but be aware that this is 18+ content !</p></h2>
+ <a href="https://e621.net/posts?tags=lolopolko+">   <img src="./images/E621index.png" alt="E621"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://vrc.group/NUTS.3352">VRchat group</a><p class="description">Join our VRchat community. This is the easiest way to join community events which we usually do biweekly on Saturdays</p></h2>
+  <a href="https://vrc.group/NUTS.3352">  <img src="./images/Vrchatindex.png" alt="VRchat group"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://ko-fi.com/lolopolko">Ko-fi</a><p class="description">If you enjoy my content consider supporting me on Ko-fi </p></h2>
+  <a href="https://ko-fi.com/lolopolko">  <img src="./images/Kofiindex.png" alt="Ko-fi"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://throne.com/lolopolko">Throne</a><p class="description">Here you can check out my wishlist on Throne.</p></h2>
+ <a href="https://throne.com/lolopolko"><img src="./images/Throneindex.png" alt="Throne"></a>
+  </div>
+  <div class="link-item">
+    <h2><a href="https://t.me/addstickers/Lolopolko">Telegram emotes</a> <p class="description">Here you can download my custom Telegram emotes (SFW) </p></h2>
+   <a href="https://t.me/addstickers/Lolopolko"> <img src="./images/Telegramindex.png" alt="Telegram emotes"></a>
+  </div>
+</div>
+
+<script>
+// When the user scrolls, check the position of each link-item and add the 'visible' class
+window.addEventListener('scroll', function() {
+    const linkItems = document.querySelectorAll('.link-item');
+    const triggerBottom = window.innerHeight / 5 * 4;
+
+    linkItems.forEach(item => {
+        const itemTop = item.getBoundingClientRect().top;
+
+        if (itemTop < triggerBottom) {
+            item.classList.add('visible');
+        } else {
+            item.classList.remove('visible');
+        }
+    });
+});
+</script>
+
+</body>
