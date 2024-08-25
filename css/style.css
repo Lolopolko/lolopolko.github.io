@@ -289,11 +289,14 @@ footer {
 
              .video-container {
             position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
+            
+            height: 50vh;
             overflow: hidden;
             max-width: 100%;
+			width:60%;
+			left:20%;
             background: #000;
+			margin-bottom:20px;
         }
         .video-container iframe {
             position: absolute;
