@@ -10,8 +10,32 @@
 
 	
 </head>
+<style>
+    .playlist-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .playlist-item {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 800px; /* Increase height to desired size */
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+</style>
 
 <body>
+
 
 
 
@@ -32,30 +56,34 @@
 
 
 </head>
+
 <body>
 
  <div style="text-align: center; padding:0px;"> <a href="https://www.youtube.com/@lolopolkoOwO" style="margin:0px;"><img id="optionalstuff" src="./images/youtube.png" alt="" position="center" width="30%" height="auto"></a>
  
- <div class="playlist-container">
-        <div class="playlist-item">
-            <h1>Shorts Playlist</h1>
-            <iframe src="https://www.youtube.com/embed/video series?si=W8KSu0ViCXm-tGia&amp;list=PLX40FhocoyRdBE-XjqEQomlOF_glCKd7B" 
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen></iframe>
-        </div>
-        <div class="playlist-item">
-            <h1>Memes Playlist</h1>
-            <iframe src="https://www.youtube.com/embed/videoseries?si=VCw_k0QxetWsxwYw&amp;list=PLX40FhocoyReSF46yv7NKcI-ZLdjnjTw8" 
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen></iframe>
-        </div>
+<div class="playlist-container">
+    <div class="playlist-item">
+        <h1>Shorts Playlist</h1>
+        <iframe src="https://www.youtube.com/embed/videoseries?si=W8KSu0ViCXm-tGia&amp;list=PLX40FhocoyRdBE-XjqEQomlOF_glCKd7B"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
     </div>
-  
+    <div class="playlist-item">
+        <h1>Memes Playlist</h1>
+        <iframe src="https://www.youtube.com/embed/videoseries?si=VCw_k0QxetWsxwYw&amp;list=PLX40FhocoyReSF46yv7NKcI-ZLdjnjTw8"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+    </div>
+</div>
    
-   <h1>Latest Video from My YouTube Channel</h1>
-    <div id="video-container" class="video-container"></div>
+ <h1>Latest Video from My YouTube Channel</h1>
+<div id="video-container" class="video-container">
+    <iframe src="https://www.youtube.com/embed/your_video_id" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 	
 
     <script>

@@ -316,51 +316,55 @@ footer {
         }
 
         .playlist-item h1 {
-            font-size: 20px;
+            font-size: 30px;
             margin-bottom: 10px;
         }
 
-        .playlist-item iframe {
-            width: 100%; /* Ensure the iframe takes the full width of its container */
-            height: auto; /* Maintain aspect ratio */
-        }
-
-   .artist-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .artist-item {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 2px;
-            overflow: hidden; /* Clear floats */
-        }
-        .artist-item h2 {
-            margin: 0px;
-            font-size: 1.5em;
-        }
-        .artwork {
-            display: inline-block; /* Place images next to each other */
-            margin-right: 10px;
-            text-align: center;
-        }
-        .artwork img {
-            max-width: 150px;
-            height: auto;
-            border-radius: 8px;
-            display: block;
-        }
-        .artwork p {
-            margin: 5px 0 0;
-            font-size: 0.9em;
-        }
-		.links {font: 50px;}
 		
-		 .
-        .artist-item p {
-            margin: 0;
-        }
+
+  .artist-list {
+    list-style-type: none; /* Remove default list bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.artist-item {
+    margin-bottom: 10px; /* Space between artist items */
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+    border-radius: 0; /* Remove border radius */
+    overflow: visible; /* Allow content to overflow if needed */
+}
+
+.artist-item h2 {
+    margin: 0; /* Remove margin around <h2> */
+    font-size: 1.5em; /* Font size for <h2> */
+}
+
+.artwork {
+    display: inline-block; /* Place images next to each other */
+    margin-right: 10px; /* Space to the right of each image */
+    text-align: center; /* Center text under images */
+}
+
+.artwork img {
+    max-width: 150px; /* Maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    display: block; /* Ensure images are block-level */
+}
+
+.artwork p {
+    margin: 5px 0 0; /* Margin above text */
+    font-size: 0.9em; /* Font size for text */
+}
+
+.links {
+    font-size: 50px; /* Adjust font size for .links class */
+}
+
+.artist-item p {
+    margin: 0; /* Remove margin around <p> elements within artist-item */
+}
 		    .contact-box {
             background-color: #222;
             padding: 20px 30px;
@@ -392,7 +396,7 @@ footer {
             max-width: 1200px;
             margin: 50px auto;
             padding: 20px;
-            background-color: #555;
+            background-color: #566573;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 			border-radius: 15px; /* Add this line to round the corners */
 			
@@ -443,7 +447,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh; /* Full height of the viewport */
+    height: 20vh; /* Full height of the viewport */
     text-align: center; /* Center text horizontally */
 }	
 

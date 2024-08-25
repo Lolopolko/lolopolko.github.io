@@ -48,6 +48,44 @@ a {margin:10px;font-size: 28px };
 #scrollToTopBtn:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+h2 {
+    color: lightgreen; /* Sets the text color to light green */
+    font-weight: bold; /* Makes the text thick (bold) */
+}
+
+.links-container {
+    display: flex;
+    align-items: center; /* Vertically aligns text and images */
+    gap: 10px; /* Space between text and image links */
+}
+
+.links-container p {
+    margin: 0; /* Removes default margin from <p> */
+    font-size: 20px; /* Adjust font size as needed */
+}
+
+.picture-links {
+    display: flex;
+    gap: 0px; /* Space between images */
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+.box-container {
+    display: inline-block; /* Makes the box wrap tightly around its content */
+    border: 1px solid #ddd; /* Light border for the box */
+    border-radius: 15px; /* Curved edges */
+    padding: 20px; /* Space inside the box */
+    background-color: #f9f9f9; /* Light background color */
+    /* Remove max-width to let the box size according to its content */
+    margin: 20px; /* Space around the box */
+    top: 20px; /* Adjust top position */
+    left: 20px; /* Align box to the left side */
+}
+}
+
 
 </style>
 
@@ -78,12 +116,28 @@ a {margin:10px;font-size: 28px };
 	
 	    <!--                                                                                              -->
         <li class="artist-item">
-            <h2>Artist: VayViene
-			 <p>Links:
-                <a href="https://www.twitch.tv/vayviene">Twitch</a>
-                <a href="https://x.com/VayViene_">Twitter</a>
-                <a href="https://linktr.ee/vayviene">Linktree</a>
-            </p>
+		
+<h2>Artist: VayViene</h2>
+<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://www.twitch.tv/vayviene" target="_blank" class="link">
+                <img src="./images/links/Twitch.png" alt="Twitch" class="icon">
+            </a>
+            <a href="https://x.com/VayViene_" target="_blank" class="link">
+                <img src="./images/links/Twitter.png" alt="Twitter" class="icon">
+            </a>
+            <a href="https://linktr.ee/vayviene" target="_blank" class="link">
+                <img src="./images/links/linktree.png" alt="linktree" class="icon">
+            </a>
+        </div>
+    </div>
+	
+
+	
+
+            
 			</h2>
 			
 			
@@ -131,14 +185,24 @@ a {margin:10px;font-size: 28px };
 	
 	    <!--                                                                                              -->
 		<li class="artist-item">
-            <h2>Artist: Lussacstrange
-			 <p>Links:
-                <a href="https://www.twitch.tv/lussacstrange">Twitch</a>
-                <a href="https://www.fiverr.com/lussac_strange/draw-custom-twitch-emotes">Fiverr</a>
-                <a href="https://x.com/lussac_strange">Twitter</a>
-            </p>
+       
 			
-			</h2>
+			<h2>Artist: Lussacstrange</h2>
+<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://www.twitch.tv/lussacstrange" target="_blank" class="link">
+                <img src="./images/links/Twitch.png" alt="Twitch" class="icon">
+            </a>
+            <a href="https://x.com/lussac_strange" target="_blank" class="link">
+                <img src="./images/links/Twitter.png" alt="Twitter" class="icon">
+            </a>
+            <a href="https://www.fiverr.com/lussac_strange/draw-custom-twitch-emotes" target="_blank" class="link">
+                <img src="./images/links/Fiverr.png" alt="Fiverr" class="icon">
+            </a>
+        </div>
+    </div>
 			
 			
             <div class="artwork">
@@ -260,6 +324,7 @@ a {margin:10px;font-size: 28px };
 				 <a href="./images/artist/lusac/whizle.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/lusac/whizle.png" width="100" height="100"alt="lussacstrange" /></a>
                 <p>whizle</p>
             </div>
+			</div>
 			
         
         </li>
@@ -271,16 +336,25 @@ a {margin:10px;font-size: 28px };
 	
 	    <!--                                                                                              -->
 		<li class="artist-item">
-            <h2>Artist: Puffy
-			 <p>Links:
-                <a href="https://twitter.com/Puffffy4/media">Twitter</a>
-            </p>
-			
-			</h2
+         
+						<h2>Artist: Puffy</h2>
+<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://twitter.com/Puffffy4/media" target="_blank" class="link">
+                <img src="./images/links/Twitter.png" alt="Twitter" class="icon">
+            </a>
+           
+        </div>
+		</div>
+   
            <div class="artwork">
 				 <a href="./images/artist/puffy/LolopolkoPortrait.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/puffy/LolopolkoPortrait.png" width="100" height="100"alt="Puffy" /></a>
                 <p>LolopolkoPortrait</p>
             </div>	
+			 </div>
+			
           
         </li>
 		<!--                                                                                              
@@ -291,12 +365,18 @@ a {margin:10px;font-size: 28px };
 	
 	                                                                                                                                                             -->
 		<li class="artist-item">
-            <h2>Artist: Dsixzey
-			 <p>Links:
-                <a href="https://www.furaffinity.net/user/dragonsixzey">Furaffinity</a>
-            </p>
-			
-			</h2>
+          
+			<h2>Artist: Dsixzey</h2>
+<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://www.furaffinity.net/user/dragonsixzey" target="_blank" class="link">
+                <img src="./images/links/Furaffinity.png" alt="Furaffinity" class="icon">
+            </a>
+        
+        </div>
+    </div>
 			 <div class="artwork">
 				 <a href="./images/artist/AAA.gif" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/AAA.gif" width="100" height="100"alt="Dsixzey" /></a>
                 <p>AAA</p>
@@ -305,6 +385,7 @@ a {margin:10px;font-size: 28px };
 				 <a href="./images/artist/AAA.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/AAA.png" width="100" height="100"alt="VayViene" /></a>
                 <p>AAA</p>
             </div>
+			</div>
 			
         </li>
 		
@@ -318,12 +399,18 @@ a {margin:10px;font-size: 28px };
 		
 		
 		<li class="artist-item">
-            <h2>Artist: c64floyd
-			 <p>Links:
-                <a href="https://www.deviantart.com/c64floyd">Devianart</a>
-            </p>
-			
-			</h2>
+         
+			<h2>Artist: c64floyd</h2>
+<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://www.deviantart.com/c64floyd" target="_blank" class="link">
+                <img src="./images/links/Deviantart.png" alt="Deviantart" class="icon">
+            </a>
+         
+        </div>
+    </div>
 			 <div class="artwork">
 				 <a href="./images/artist/Floyd/kiss.gif" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/Floyd/kiss.gif" width="100" height="100"alt="c64floyd" /></a>
                 <p>kiss</p>
@@ -336,6 +423,8 @@ a {margin:10px;font-size: 28px };
 				 <a href="./images/artist/Floyd/gayboykisser.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/Floyd/gayboykisser.png" width="100" height="100"alt="c64floyd" /></a>
                 <p>gayboykisser</p>
             </div>
+			    </div>
+
 			
 			
         </li>
@@ -349,9 +438,18 @@ a {margin:10px;font-size: 28px };
 		
 			<li class="artist-item">
             <h2>Artist: Chip
+		
 				
 			
 			</h2>
+			<div class="box-container">
+    <div class="links-container">
+		
+       <div class="picture-links">
+         
+        </div>
+    </div>
+			
 			 <div class="artwork">
 				 <a href="./images/artist/chip/Miss.Microscope.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/chip/Miss.Microscope.png" width="100" height="100"alt="Chip" /></a>
                 <p>Miss.Microscope</p>
@@ -360,6 +458,7 @@ a {margin:10px;font-size: 28px };
 				 <a href="./images/artist/chip/LoloShowman.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/chip/LoloShowman.png" width="100" height="100"alt="Chip" /></a>
                 <p>LoloShowman</p>
             </div>
+			  </div>
 
         </li>
 		<!--                                                                                              -->
@@ -370,13 +469,18 @@ a {margin:10px;font-size: 28px };
 	
 	    <!--                                                                                              -->
 			<li class="artist-item">
-            <h2>Artist: Elian N
-			<p>Links:
-                <a href="https://www.fiverr.com/helicoptero_eli">Fiverr</a>
-            </p>
-				
+           <h2>Artist: helicoptero_eli</h2>
 			
-			</h2>
+			<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://www.fiverr.com/helicoptero_eli" target="_blank" class="link">
+                <img src="./images/links/Fiverr.png" alt="Fiver" class="icon">
+            </a>
+           
+        </div>
+    </div>
 			 <div class="artwork">
 				 <a href="./images/artist/eliann/blue racoon.jpg" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/eliann/blue racoon.jpg" width="100" height="100"alt="Elian N" /></a>
                 <p>blue racoon</p>
@@ -385,6 +489,7 @@ a {margin:10px;font-size: 28px };
 				 <a href="./images/artist/eliann/blue racoon.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/eliann/blue racoon.png" width="100" height="100"alt="Elian N" /></a>
                 <p>blue racoon</p>
             </div>
+			</div>
 
         </li>
 		
@@ -396,19 +501,28 @@ a {margin:10px;font-size: 28px };
 	
 	    <!--                                                                                              -->
 			<li class="artist-item">
-            <h2>Artist: Xavoto_Fox
-			<p>Links:
-                <a href="https://www.twitch.tv/xavoto_fox">Twitch</a>
-				<a href="https://twitter.com/xavoto_fox">Twitter</a>
-				<a href="https://beacons.ai/xavoto_fox">Linktree</a>
-            </p>
-				
+            <h2>Artist: Xavoto_Fox</h2>
 			
-			</h2>
+			<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://www.twitch.tv/xavoto_fox" target="_blank" class="link">
+                <img src="./images/links/Twitch.png" alt="Twitch" class="icon">
+            </a>
+            <a href="https://twitter.com/xavoto_fox" target="_blank" class="link">
+                <img src="./images/links/Twitter.png" alt="Twitter" class="icon">
+            </a>
+            <a href="https://beacons.ai/xavoto_fox" target="_blank" class="link">
+                <img src="./images/links/linktree.png" alt="linktree" class="icon">
+            </a>
+        </div>
+    </div>
 			 <div class="artwork">
 				 <a href="./images/artist/xav/racoon.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/xav/racoon.png" width="100" height="100"alt="Chip" /></a>
                 <p>racoon</p>
             </div>
+			 </div>
 
         </li>
 		<!--                                                                                              -->
@@ -419,14 +533,22 @@ a {margin:10px;font-size: 28px };
 	
 	    <!--                                                                                              -->
 		<li class="artist-item">
-            <h2>Artist: Kodegen
-			<p>Links:
-                <a href="https://www.twitch.tv/kodegenx">Twitch</a>
-				
-            </p>
+            <h2>Artist: Kodegen</h2>
+			
 				
 			
-			</h2>
+			
+			
+			<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+            <a href="https://www.twitch.tv/kodegenx" target="_blank" class="link">
+                <img src="./images/links/Twitch.png" alt="Twitch" class="icon">
+            </a>
+           
+        </div>
+    </div>
 			 <div class="artwork">
 				 <a href="./images/artist/kodegen/1.gif" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/kodegen/1.gif" width="100" height="100"alt="Kodegen" /></a>
                 <p>1</p>
@@ -547,7 +669,8 @@ a {margin:10px;font-size: 28px };
 			<div class="artwork">
 				 <a href="./images/artist/kodegen/18.gif" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/kodegen/18.gif" width="100" height="100"alt="Kodegen" /></a>
                 <p>18</p>
-            </div
+            </div>
+			 </div>
 
         </li>
 		
@@ -559,17 +682,28 @@ a {margin:10px;font-size: 28px };
 	
 	    <!--                                                                                              -->
 			<li class="artist-item">
-            <h2>Artist: Jevu
-			<p>Links:
-				<a href="https://twitter.com/just_Tyfir">Twitter</a>
-            </p>
+            <h2>Artist: Jevu</h2>
+			
 				
 			
-			</h2>
+			
+			<div class="box-container">
+    <div class="links-container">
+        <p>Links:</p>
+        <div class="picture-links">
+           
+            <a href="https://twitter.com/just_Tyfir" target="_blank" class="link">
+                <img src="./images/links/Twitter.png" alt="Twitter" class="icon">
+            </a>
+           
+        </div>
+    </div>
 			 <div class="artwork">
 				 <a href="./images/artist/jevu/Fanart_for_Lolopolkoo.png" download="myimage" target="_blank"><img loading="lazy"src="./images/artist/jevu/Fanart_for_Lolopolkoo.png" width="100" height="100"alt="Jevu" /></a>
                 <p>Fanart_for_Lolopolkoo</p>
             </div>
+		    </div>
+
 
         </li>
 		<!--                                                                                              -->
@@ -584,7 +718,6 @@ a {margin:10px;font-size: 28px };
       
     </ul>
    
-    <button id="scrollToTopBtn" title="Go to top">⬆️</button>
 	
 	
    <script>
