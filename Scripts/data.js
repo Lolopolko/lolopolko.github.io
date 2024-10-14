@@ -662,6 +662,7 @@ var data = [
         Description: 'custom commands for super cute beans',
         
 		
+		
     },
 		{
         Platform: '<img src="./images/Discord.png" width="65" height="70">',
