@@ -56,7 +56,7 @@ var data = [
     },  
 	
 	{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Donation',
         Command: '<button onclick="copyText(this)" title="Click to copy">!throne</button>',
         Description: 'Want to support Lolo with some item which they need ? Have a look on the throne',
@@ -355,6 +355,14 @@ var data = [
         
 		
     },
+	{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Throw stuff',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!icecream</button>',
+        Description: 'Throw item at Lolo',
+        
+		
+    },
 	
 	{
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
@@ -527,7 +535,7 @@ var data = [
     },
 	
     {
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutedara</button>',
         Description: 'This is true ! ',
@@ -536,7 +544,7 @@ var data = [
 	
 		
 	{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutemando</button>',
         Description: 'custom commands for super cute beans',
@@ -548,6 +556,38 @@ var data = [
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutenadian</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cuteelectro</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutedevin</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cuteminz</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutegshin</button>',
         Description: 'custom commands for super cute beans',
         
 		
@@ -626,7 +666,175 @@ var data = [
 		{
         Platform: '<img src="./images/Discord.png" width="65" height="70">',
         Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutetygo</button>',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutechip</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!nerdsoul</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!nerdsmajky</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!smajnutty</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!quinnut</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!nutdark</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!zyronut</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutefloyd</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutetormgart</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cuteatlas</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutesillyfox</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	
+	
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!gaysoul</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cuteboshix</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		
+
+	{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutezyron</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	
+		{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cuteauro</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutelucky</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutewidmor</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutefuzzy</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutemixxer</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutekodegen</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+		{
+        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutequin</button>',
         Description: 'custom commands for super cute beans',
         
 		
@@ -663,14 +871,7 @@ var data = [
         
 		
     },
-		{
-        Platform: '<img src="./images/Discord.png" width="65" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutezyron</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+	
 		{
         Platform: '<img src="./images/Discord.png" width="65" height="70">',
         Category: 'Personal',
@@ -688,7 +889,7 @@ var data = [
 		
     },
 		{
-        Platform: '<img src="./images/Discord.png" width="65" height="70">',
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!mommymela</button>',
         Description: 'custom commands for super cute beans',
@@ -711,14 +912,7 @@ var data = [
         
 		
     },
-		{
-        Platform: '<img src="./images/Discord.png" width="65" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutesagi</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+	
 		{
         Platform: '<img src="./images/Discord.png" width="65" height="70">',
         Category: 'Personal',
@@ -792,9 +986,17 @@ var data = [
     },
 	
 		{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!nerdjumi</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!femboymando</button>',
         Description: 'custom commands for super cute beans',
         
 		
@@ -832,14 +1034,6 @@ var data = [
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!yoyocute</button>',
         Description: 'custom commands for super cute beans',
-        
-		
-    },
-		{
-        Platform: '<img src="./images/Twitch.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!mommymela</button>',
-        Description: 'MommaMela is protecting us all',
         
 		
     },
@@ -903,6 +1097,14 @@ var data = [
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!goodboywusk</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },		
+	{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutevekh</button>',
         Description: 'custom commands for super cute beans',
         
 		
@@ -1052,11 +1254,20 @@ var data = [
         
 		
     },	
+
 				
 	{
         Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!jumicutie</button>',
+        Description: 'custom commands for super cute beans',
+        
+		
+    },
+	{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
+        Category: 'Personal',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutedennis</button>',
         Description: 'custom commands for super cute beans',
         
 		
@@ -1088,27 +1299,12 @@ var data = [
 	{
         Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cuterox</button>',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cutefurox</button>',
         Description: 'custom commands for super cute beans',
         
 		
     },
-	{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutetako</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
-	{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutagen</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+
 	{
         Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
@@ -1118,14 +1314,8 @@ var data = [
 		
     },
 			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutedara</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+	
+ 
 			
 	{
         Platform: '<img src="./images/Discord.png"" width="70" height="70">',
@@ -1136,14 +1326,6 @@ var data = [
 		
     },
 			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cuterox</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
 			
 	{
         Platform: '<img src="./images/Discord.png"" width="70" height="70">',
@@ -1155,7 +1337,7 @@ var data = [
     },
 			
 	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
+        Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
         Category: 'Personal',
         Command: '<button onclick="copyText(this)" title="Click to copy">!cutedark</button>',
         Description: 'custom commands for super cute beans',
@@ -1208,32 +1390,7 @@ var data = [
 		
     },
 			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cuterani</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
-			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutemanga</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
-			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutemela</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+	
 			
 	{
         Platform: '<img src="./images/Twitch.png" width="65" height="70"><img src="./images/Discord.png"" width="70" height="70">',
@@ -1243,42 +1400,8 @@ var data = [
         
 		
     },
-			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutegene</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
-			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutesnow</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
-			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cuteseah</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
-			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cuteshin</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+				
+
 			
 	{
         Platform: '<img src="./images/Discord.png"" width="70" height="70">',
@@ -1289,23 +1412,9 @@ var data = [
 		
     },
 			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutonell</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+	
 			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!cutemarcel</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+
 			
 	{
         Platform: '<img src="./images/Discord.png"" width="70" height="70">',
@@ -1316,14 +1425,7 @@ var data = [
 		
     },
 			
-	{
-        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
-        Category: 'Personal',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!gaywusk</button>',
-        Description: 'custom commands for super cute beans',
-        
-		
-    },
+	
 			
 	{
         Platform: '<img src="./images/Discord.png"" width="70" height="70">',
@@ -1451,41 +1553,15 @@ var data = [
 		
     },
 			
-	{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
-        Category: 'Music',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!next</button>',
-        Description: 'display next song',
-        
-		
-    },
-				
-	{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
-        Category: 'Music',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!pos</button>',
-        Description: 'Display your song position',
-        
-		
-    },
 				
 	{
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
         Category: 'Music',
         Command: '<button onclick="copyText(this)" title="Click to copy">!queue</button>',
         Description: 'Show song queue (link in the chat)',
-        
-		
+        	
     },
 				
-	{
-        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
-        Category: 'Music',
-        Command: '<button onclick="copyText(this)" title="Click to copy">!remove</button>',
-        Description: 'Remove YOUR latest song',
-        
-		
-    },
 				
 	{
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
@@ -1504,6 +1580,7 @@ var data = [
         
 		
     },
+	
 	
 		{
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
@@ -1788,6 +1865,21 @@ var data = [
         Description: 'Show picture of named animal(!snek works too x3)',
         
     },	
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Images',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!cow</button>',
+        Description: 'Show picture of named animal(!snek works too x3)',
+        
+    },	
+		{
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Images',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!horse</button>',
+        Description: 'Show picture of named animal(!snek works too x3)',
+        
+    },	
+	
 	
 		
 		{
@@ -1883,6 +1975,13 @@ var data = [
         Category: 'Other',
         Command: '<button onclick="copyText(this)" title="Click to copy">!sus</button>',
         Description: 'Check how lewd you are today',
+       
+    },
+	{
+        Platform: '<img src="./images/Discord.png"" width="70" height="70">',
+        Category: 'Other',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!nerd</button>',
+        Description: 'Check how much of nerd you are today',
        
     },
 	
@@ -2020,6 +2119,20 @@ var data = [
         Description: 'For how long is Lolo life',
         
 		 },
+		  {
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Other',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!chatsettings</button>',
+        Description: 'change your appearenance on screen chat (add pronouce and flags..etc.)',
+        
+		 },
+		   {
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Other',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!webpage</button>',
+        Description: 'link to this webpage',
+        
+		 },
 	 	 
 		 {
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
@@ -2080,10 +2193,35 @@ var data = [
 		 {
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
         Category: 'Moderators',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!playnext</button>',
+        Description: 'plays next song',
+        
+		 },
+		 
+		  {
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Moderators',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!playprevious</button>',
+        Description: 'plays previous song',
+        
+		 },
+		 	
+			 {
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Moderators',
+        Command: '<button onclick="copyText(this)" title="Click to copy">!songblacklist</button>',
+        Description: 'Blacklist specific song',
+        
+		 },
+		 	
+			 {
+        Platform: '<img src="./images/Twitch.png" width="65" height="70">',
+        Category: 'Moderators',
         Command: '<button onclick="copyText(this)" title="Click to copy">!ping</button>',
         Description: 'Checks if StreamElements is online ?',
         
 		 },
+		 	
 		 	 		 	 
 		 {
         Platform: '<img src="./images/Twitch.png" width="65" height="70">',
